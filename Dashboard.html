@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<!-- Inside the .profile-photo div -->
+<div class="profile-photo">
+  <img id="userPhoto" src="default_user_photo.jpg" alt="User Photo">
+  <!-- Replace "default_user_photo.jpg" with the path to the default user photo -->
+</div>
+
+    <div class="content">
+      <div class="balance-container">
+        <h2>Available Balance</h2>
+        <div class="balance">$553,074.62</div>
+        <div class="card-details">MasterCard ending in **** 5534</div>
+      </div>
+      
+      <div class="options">
+        <button class="option-btn transfer">Transfer</button>
+        <button class="option-btn pay-bills">Pay Bills</button>
+      </div>
+
+      <div class="transaction-history">
+        <h3>Transaction History</h3>
+        <ul id="transactionList">
+          <!-- Transaction items will be dynamically added here -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0079c1, #ff4d4d); /* Gradient of blue and red */
+}
+
+.dashboard-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.profile-photo {
+  background-color: #f0f0f0; /* Light grey background */
+  text-align: center; /* Center content horizontally */
+}
+
+.profile-photo img {
+  width: 100px; /* Adjust the width of the profile photo */
+  height: 100px; /* Adjust the height of the profile photo */
+  border-radius: 50%; /* Create a circular shape for the profile photo */
+  margin-top: 20px; /* Add some space above the profile photo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+.content {
+  padding: 20px;
+}
+
+.balance-container {
+  margin-bottom: 20px; /* Add some space below the balance */
+}
+
+.balance {
+  font-size: 40px; /* Increase the size of the balance */
+  color: #00aa00; /* Green color for balance */
+}
+
+.card-details {
+  font-size: 14px; /* Increase the size of the card details */
+  color: #fff; /* Grey color for card details */
+}
+
+.options {
+  margin-bottom: 50px; /* Add space below the buttons */
+  text-align: center; /* Center the buttons horizontally */
+}
+
+.option-btn {
+  width: 200px; /* Adjust the width of the buttons */
+  padding: 15px; /* Increase the padding for better touch/click area */
+  margin-bottom: 10px; /* Add space below each button */
+  border-radius: 5px;
+  border: none;
+  background-color: #0079c1; /* Blue color for buttons */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; /* Display the buttons as block elements */
+}
+
+.option-btn:hover {
+  background-color: #005d8e; /* Darker blue color on hover */
+}
+
+
+.transaction-history {
+  text-align: left; /* Align transaction history items to the left */
+}
+
+.transaction-history h3 {
+  margin-bottom: 10px; /* Add space below the transaction history heading */
+}
+
+.transaction-history ul {
+  list-style: flex; /* Remove default list styles */
+  padding: 0;
+}
+
+.transaction-history li {
+  border-bottom: 1px solid #ccc; /* Add bottom border between transaction history items */
+  padding: 15px 0;
+}
+
+.transaction-history li:last-child {
+  border-bottom: none; /* Remove bottom border from the last transaction history item */
+}
